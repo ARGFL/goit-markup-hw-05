@@ -35,7 +35,7 @@ ul {
     background-color: var(--white);
     display:flex;
     gap: 30px;
-    height: 6vh;
+    height: 7vh;
     border: solid var(--dark-white) 0.5px;
     justify-content: space-around;
     
@@ -841,7 +841,7 @@ gap: 20px;}
     
         
         
-            .image_box:hover .overlay {
+        .image_box:hover .overlay {
                 transform: translateY(0);
             }
         

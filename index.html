@@ -52,7 +52,7 @@ rel="stylesheet">
       <section class="hero_section">
     <div class="container">
         <h1 class="hero_section_title">EFFECTIVE SOLUTIONS FOR <br>YOUR BUSINESS</h1>
-        <button class="main_page_button" type="button">Request our service</button>
+        <button data-modal-open class="main_page_button" type="button">Request our service</button>
     </div>
       </section>
 
@@ -117,17 +117,22 @@ rel="stylesheet">
 </section>
     <!--What we do section images-->
 <section>
-    <div class="container">
-        <div>
-            <h2 class="div_images_title">What we do</h2>
-        </div>
+    <h2 class="div_images_title">What we do</h2>
+        <div class="whatwedo_container">
             <div class="whatwedo_images">
-            <img src="./images/img-1.jpg" alt="desktop" width="298"/>
-            <img src="./images/img-2.jpg" alt="mobile" width="298" />
+              <img src="./images/img-1.jpg" alt="desktop" width="298"/>
+              <p class="whatwedo_label">desktop apps</p>
+           </div>
+           <div class="whatwedo_images">
+              <img src="./images/img-2.jpg" alt="mobile" width="298" />
+              <p class="whatwedo_label">mobile apps</p>
+           </div>
+        <div class="whatwedo_images">
             <img src="./images/img-3.jpg" alt="tablet" width="298"/>
+            <p class="whatwedo_label">design solutions</p>
         </div>
         </div>
-    </section>
+ </section>
     <!--Team section-->
     <section class="team_section">
         <div class="container">
@@ -342,6 +347,14 @@ rel="stylesheet">
 </section>
 </footer>
 
+<div data-modal class="is-hidden">
+    <div data-modal-content>
+        <h1></h1>
+        <p></p>
+        <button data-modal-close type="button">X</button>
+    </div>
+</div>
 
+<script src="./modal.js"></script>
 </body>
 </html>

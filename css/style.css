@@ -108,14 +108,14 @@ ul {
         cursor: pointer;
     }
 
-    .header_navigation .links::after,
-    .header_navigation .links:after {
+    .header_navigation .links::after
+     {
      content: '';
      height: 4px;
      width: 0;
      border-radius: 20px;
      position: absolute;
-     top: 40px;
+     top: 35px;
      left: 0;
      background-color: var(--blue);
      transition-duration: 0.5s;
@@ -713,7 +713,8 @@ gap:10px;
     fill:var(--blue);
 }
 
-.portofolio_header_contacts a:hover,.header_contacts a:focus,.header_contacts a:active {
+.portofolio_header_contacts a:hover,
+.header_contacts a:focus,.header_contacts a:active {
 color: var(--blue);
 }
 
@@ -732,7 +733,7 @@ color: var(--blue);
      width: 0;
      border-radius: 20px;
      position: absolute;
-     top: 40px;
+     top: 30px;
      left: 0;
      background-color: var(--blue);
      transition-duration: 0.5s;
